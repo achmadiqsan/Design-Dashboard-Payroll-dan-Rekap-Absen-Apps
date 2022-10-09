@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>APLIKASI PAYROLL DAN REKAP ABSEN</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+
+		<div class="data2">
+
+			<div class="menu">
+
+						<div class="logo">
+							<img src="assets/CreatingaPandasDataFrame-min_1-modified.png" alt="image logo">
+							<p>PT. IHSAN AMALIYAH</p>
+						</div>
+
+						<div class="data-menu">
+							<div class="pegawai">
+								<img src="assets/datapegawai.jpg">
+								<p>Data Pegawai</p>
+							</div>
+							<div class="jabatan">
+								<img src="assets/datajabatan.png">
+								<p>Data Jabatan</p>
+							</div>
+							<div class="absen">
+								<img src="assets/dataabsen.png">
+								<p>Data Absen</p>
+							</div>
+							<div class="rekap">
+								<img src="assets/rekapabsen.png">
+								<p>Rekap Absen</p>
+							</div>
+							<div class="gaji">
+								<img src="assets/datagaji.png">
+								<p>Data Gaji</p>
+							</div>
+							<div class="refreshdata">
+								<img src="assets/refreshdata.png">
+								<p>Refresh Data</p>
+							</div>
+						</div>
+
+						<div class="copyright">
+							<p>Copyright Achmad Iqsan 2022</p>
+						</div>
+
+					</div>
+
+				<div class="data3">
+
+					<div class="data3_1">
+
+						<div class="jmlpeg">
+						<div class="kolomgab">
+							<img src="assets/jumlahPegawai.png">
+							<p>Jumlah Pegawai</p>
+						</div>
+						<div class="kolomjmlpeg">
+							<p>18</p>
+						</div>
+						</div>
+
+					<div class="pegtetap">
+						<div class="kolomgabpegtetap">
+							<img src="assets/pegawaiTetap.png">
+							<p>Pegawai Tetap</p>
+						</div>
+						<div class="kolompegtetap">
+							<p>6</p>
+						</div>
+					</div>
+
+					<div class="pegkontrak">
+						<div class="kolomgabpegkontrak">
+							<img src="assets/pegawaiKontrak.png">
+							<p>Pegawai Kontrak</p>
+						</div>
+						<div class="kolompegkontrak">
+							<p>6</p>
+						</div>
+					</div>
+
+					<div class="pegharian">
+						<div class="kolomgabpegharian">
+							<img src="assets/pegawaiHarian.png">
+							<p>Pegawai Harian</p>
+						</div>
+						<div class="kolompegharian">
+							<p>6</p>
+						</div>
+					</div>
+
+					</div>
+
+					<div class="data3_2">
+
+						<div class="data3_2Gab">
+							<div class="chartmaleorfemale">
+							<div class="chartmaleorfemaleText">
+								<img src="assets/chartMaleAndFemale.png">
+								<p>Pegawai Laki-Laki & Perempuan</p>
+							</div>
+							<div class="maleorfemaleChart">
+								<canvas id="oilChart" width="40" height="20"></canvas>						
+							</div>
+						</div>
+						
+						<div class="kethadir">
+							<div class="masuk">
+								<div class="logoM">
+									M
+								</div>
+								<div class="angkaM">
+									0
+								</div>
+							</div>
+
+							<div class="sakit">
+								<div class="logoS">
+									S
+								</div>
+								<div class="angkaS">
+									0
+								</div>
+							</div>
+
+							<div class="alpha">
+								<div class="logoA">
+									A
+								</div>
+								<div class="angkaA">
+									0
+								</div>
+							</div>
+							
+						</div>
+						</div>
+
+						<div class="data3_3">
+							<div class="chartabsenbulan">
+								<div class="absenbulanLogo">
+									<img src="assets/calendar.png">
+									<p>Grafik Rekapitulasi Absen Bulanan</p>
+								</div>
+								<div class="absenbulanChart">
+									<canvas id="absenbulanChart"></canvas>
+								</div>
+							</div>
+
+							<div class="chartabsenperkaryawan">
+								<div class="chartabsenperkaryawanLogo">
+									<img src="assets/chartperkaryawan.png">
+									<p>Grafik Absen Per Karyawan</p>
+								</div>
+								<div class="chartabsenperkaryawanChart">
+									<canvas id="chartabsenperkaryawanChart"></canvas>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="chartjs/Chart.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

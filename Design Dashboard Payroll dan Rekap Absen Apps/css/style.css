@@ -1,0 +1,534 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: #222829;
+}
+
+.data2 {
+	display: flex;
+}
+
+.data3_1 {
+	display: flex;
+}
+
+.data3_2 {
+	display: flex;
+}
+
+.menu {
+	/*border: solid red 2px;*/
+	height: 625px;
+	width: 200px;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.menu .logo img{
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+}
+
+.menu .logo p{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.pegawai {
+	color: #574EB0;
+	border: solid #574EB0 1px;
+	border-radius: 15px 10px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.pegawai img {
+	margin-left: 10px;
+}
+
+.pegawai p{
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	padding: 2px;
+	margin-right: 30px;
+}
+
+.jabatan {
+	color: #574EB0;
+	border: solid #574EB0 1px;
+	border-radius: 15px 10px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.jabatan img {
+	margin-left: 10px;
+}
+
+.jabatan p{
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	padding: 2px;
+	margin-right: 35px;
+}
+
+.absen {
+	color: #574EB0;
+	border: solid #574EB0 1px;
+	border-radius: 15px 10px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.absen img {
+	margin-left: 10px;
+}
+
+.absen p{
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	padding: 2px;
+	margin-right: 45px;
+}
+
+.rekap {
+	color: #574EB0;
+	border: solid #574EB0 1px;
+	border-radius: 15px 10px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.rekap img {
+	margin-left: 10px;
+}
+
+.rekap p{
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	padding: 2px;
+	margin-right: 35px;
+}
+
+.gaji {
+	color: #574EB0;
+	border: solid #574EB0 1px;
+	border-radius: 15px 10px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.gaji img {
+	margin-left: 10px;
+}
+
+.gaji p{
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	padding: 2px;
+	margin-right: 60px;
+}
+
+.refreshdata {
+	color: #574EB0;
+	border: solid #574EB0 1px;
+	border-radius: 15px 10px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.refreshdata img {
+	margin-left: 10px;
+}
+
+.refreshdata p{
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	padding: 2px;
+	margin-right: 35px;
+}
+
+.copyright {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	background-color: #574EB0;
+	padding: 15px;
+	font-weight: bold;
+	margin-top: 110px;
+}
+
+.jmlpeg {
+	/*border: solid white 1px;*/
+	/*float: right;*/
+	padding: 10px;
+	color: white;
+	background-color: #474091;
+	margin-left: 10px;
+	margin-top: 15px;
+	border-radius: 15px 15px 15px 15px;
+	height: 175px;
+	width: 425px;
+	display: flex;
+}
+
+.jmlpeg .kolomgab {
+	/*border: solid white 1px;*/
+	text-align: center;
+	width: 110px;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+
+.jmlpeg .kolomgab img {
+	width: 70px;
+}
+
+.jmlpeg .kolomjmlpeg {
+	background-color: #7C75C1;
+	border-radius: 15px 15px 15px 15px;
+	height: 90px;
+	width: 150px;
+	margin-top: 35px;
+	margin-left: 100px;
+
+}
+
+.jmlpeg .kolomjmlpeg p {
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.pegtetap {
+	/*border: solid white 1px;*/
+	/*float: right;*/
+	color: white;
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 175px;
+	width: 225px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #68D141;
+	padding: 10px;
+}
+
+.pegtetap .kolomgabpegtetap {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.pegtetap .kolomgabpegtetap img {
+	width: 50px;
+}
+
+.pegtetap .kolompegtetap {
+	background-color: #574EB0;
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.pegkontrak {
+	/*border: solid white 1px;*/
+	/*float: right;*/
+	color: white;
+	margin-left: 5px;
+	margin-top: 15px;
+	height: 175px;
+	width: 225px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #FFA84B;
+	padding: 10px;
+}
+
+.pegkontrak .kolomgabpegkontrak {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.pegkontrak .kolomgabpegkontrak img {
+	width: 50px;
+}
+
+.pegkontrak .kolompegkontrak {
+	background-color: #574EB0;
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.pegharian {
+	/*border: solid white 1px;*/
+	/*float: right;*/
+	color: white;
+	margin-left: 5px;
+	margin-top: 15px;
+	height: 175px;
+	width: 225px;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 10px;
+	background-color: #474091;
+	padding: 10px;
+}
+
+.pegharian .kolomgabpegharian {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.pegharian .kolomgabpegharian img {
+	width: 58px;
+}
+
+.pegharian .kolompegharian {
+	background-color: #D67000;
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.chartmaleorfemale {
+	/*border: solid white 1px;*/
+	padding: 10px;
+	color: white;
+	background-color: #FFFFFF;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 15px 15px 15px 15px;
+	height: 300px;
+	width: 425px;
+	/*display: flex;*/
+}
+
+.chartmaleorfemaleText {
+	color: #574EB0;
+	display: flex;
+}
+
+.chartmaleorfemaleText p {
+	margin-top: 30px;
+}
+
+.kethadir {
+	display: flex;
+	height: 139px;
+}
+
+.masuk {
+	/*border: solid white 1px;*/
+	background-color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 137px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.masuk .logoM {
+	background-color: #68D141;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+.masuk .angkaM {
+	border: solid #574EB0 1px;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #68D141;
+}
+
+.sakit {
+	/*border: solid white 1px;*/
+	background-color: white;
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 137px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.sakit .logoS {
+	background-color: #574EB0;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+.sakit .angkaS {
+	border: solid #574EB0 1px;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #574EB0;
+}
+
+.alpha {
+	/*border: solid white 1px;*/
+	background-color: white;
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 137px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.alpha .logoA {
+	background-color: #FFA84B;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+.alpha .angkaA {
+	border: solid #574EB0 1px;
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFA84B;
+}
+
+.chartabsenbulan {
+	/*border: solid green; 1px;*/
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 690px;
+	border-radius: 15px 15px 15px 15px;
+	height: 210px;
+}
+
+.absenbulanLogo {
+	display: flex;
+}
+
+.absenbulanLogo img {
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.absenbulanLogo p {
+	color: #FFA84B;
+	margin-top: 25px;
+}
+
+.absenbulanChart canvas{
+	/*border: solid green; 1px;*/
+	width: 50px;
+	height: 170px;
+}
+
+.chartabsenperkaryawan {
+	/*border: solid green; 1px;*/
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 690px;
+	border-radius: 15px 15px 15px 15px;
+	height: 210px;
+}
+
+.chartabsenperkaryawanLogo {
+	display: flex;
+}
+
+.chartabsenperkaryawanLogo img {
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.chartabsenperkaryawanLogo p {
+	color: #574EB0;
+	margin-top: 20px;
+}
+
+.chartabsenperkaryawanLogo canvas{
+	/*border: solid green; 1px;*/
+	width: 50px;
+	height: 170px;
+}
+
